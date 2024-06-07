@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* __CalSans_399708, __CalSans_Fallback_399708; */
+
+
+@font-face {
+  font-family: 'font1';
+  src: url('/font1.ttf');
+}
+@font-face {
+  font-family: 'font2';
+  src: url('/font2.ttf');
+}
+:root{
+  --secondary : #737373;
+  --primary : #404040;
+}
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  /* color: #333; */
+  font-family: font2;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+ .__className_399708 {
+  font-family: font1;
+  color: var(--primary);
+}
+
+p {
+  color: #737373;
+} 
+
