@@ -50,6 +50,7 @@ const Projects = () => {
         </h1>
 
         <div className="grid grid-cols-1  gap-10">
+          <div>
             <motion.a
               variants={item}
               target="_blank"
@@ -81,6 +82,7 @@ const Projects = () => {
                 </div>
               </div>
             </motion.a>
+            </div>
           <motion.a
               variants={item}
               target="_blank"
