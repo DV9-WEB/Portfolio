@@ -84,37 +84,6 @@ const Projects = () => {
             </motion.a>
             </div>
           <motion.a
-              variants={item}
-              target="_blank"
-              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
-              href="https://redux-crud-hlr62mxju-dv9-webs-projects.vercel.app/"
-            >
-              <img
-                className="w-44 h-40 object-contain"
-                src="/screencapture-redux-crud-hlr62mxju-dv9-webs-projects-vercel-app-2024-12-12-12_30_25.png"
-                alt="CRUD App"
-              />
-
-              <div className="flex flex-col justify-between">
-                <div>
-                  <h4 className="__className_399708 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary font-black text-lg md:text-lg lg:text-lg">
-                    CRUD App
-                  </h4>
-                  <p className="font-normal text-secondary text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
-                    A CRUD web-app it has all features.
-                  </p>
-                </div>
-                <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
-                  <span className="text-xs  md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary">
-                    Redux Toolkit
-                  </span>
-                  <span className="text-xs  md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary">
-                    React js
-                  </span>
-                </div>
-              </div>
-            </motion.a>
-          <motion.a
             variants={item}
             target="_blank"
             className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
